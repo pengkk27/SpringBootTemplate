@@ -7,3 +7,12 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 123456
+    druid:
+      # 连接池初始化的连接数
+      initial-size: 5
+      # 链接池中最大活跃的连接数
+      max-active: 10
+      # 连接池中最小活跃的连接数
+      min-idle: 5
+      # 最大等待超时链接时间 ms
+      max-wait: 60000
