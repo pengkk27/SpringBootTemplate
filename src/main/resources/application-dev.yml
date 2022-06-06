@@ -16,3 +16,4 @@ spring:
       min-idle: 5
       # 最大等待超时链接时间 ms
       max-wait: 60000
+
